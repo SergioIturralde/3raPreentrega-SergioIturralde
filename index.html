@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+    />
+    <title>SIT The Producer</title>
+  </head>
+  <body>
+    <div class="contTotal">
+      <aside>
+        <header>
+          <h1 class="logo">SIT <br />The Producer</h1>
+          <a href="http://www.youtube.com/sittheproducer"
+            ><img class="linkLogo" src="./img/SIT LOGO blanco.png" alt=""
+          /></a>
+          <!-- redes sociales -->
+          <div class="redesSociales">
+            <a class="redes" href="http://www.instagram.com/sittheproducer"
+              ><i class="bi bi-instagram"></i
+            ></a>
+            <a class="redes" href="http://www.facebook.com/sittheproducer"
+              ><i class="bi bi-facebook"></i
+            ></a>
+            <a class="redes" href="http://www.tiktok.com/@sittheproducer"
+              ><i class="bi bi-tiktok"></i
+            ></a>
+            <a
+              class="redes"
+              href="https://open.spotify.com/intl-es/artist/1RrcwV9q4iIKXxU9IZeHz4?si=5S-Q3kUGSA6O7K1UJn3UCA"
+              ><i class="bi bi-spotify"></i
+            ></a>
+            <a class="redes" href="https://www.youtube.com/sittheproducer"
+              ><i class="bi bi-youtube"></i
+            ></a>
+          </div>
+        </header>
+
+        <!-- barra nav izquierda -->
+
+        <nav>
+          <ul class="menu">
+            <li>
+              <button id="inicio" class="boton-menu boton-categoria active">
+                <i class="bi bi-cassette-fill"></i
+                ><a href="#secInicio">INICIO</a>
+              </button>
+            </li>
+            <li>
+              <button id="beats" class="boton-menu boton-categoria">
+                <i class="bi bi-file-music"></i><a href="#secBeats">BEATS</a>
+              </button>
+            </li>
+            <li>
+              <button id="soundkits" class="boton-menu boton-categoria">
+                <i class="bi bi-file-music"></i
+                ><a href="#secBeats">SOUNDKITS</a>
+              </button>
+            </li>
+            <li>
+              <a class="boton-menu boton-carrito" href="carrito.html"
+                ><i class="bi bi-cart-fill"></i>CARRITO
+                <span id="numerito" class="numerito">0</span></a
+              >
+            </li>
+          </ul>
+        </nav>
+        <footer>
+          <p class="footer">© 2023 SIT The Producer</p>
+        </footer>
+      </aside>
+      <main>
+        <!-- seccion de inicio -->
+        <section id="secInicio">
+          <h2 class="titulo-principal" >INICIO</h2>
+          <div class="inicio">
+            <div class="imgInicio">
+              <img src="./img/SIT LOGO blanco.png" width="200px" alt="" />
+            </div>
+            <h3 class="banner">
+              Aquí econtrarás <span>Beats</span> y <span>SoundKits</span> de la
+              mas alta calidad
+            </h3>
+            <button class="btnInicio"> <a class="btnInicio" href="http://www.beatstars.com/sittheproducer">EMPECEMOS</a></button>
+          </div>
+        </section>
+        <!-- seccion de beats -->
+        <section id="secBeats">
+          <h2 class="titulo-principal" id="titulo-principal">BEATS</h2>
+          <div id="contenedor-productos" class="cont-productos">
+            <!-- <div class="producto">
+              <img class="img-prod" src="./img/caliente redes.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/CALIENTE CON TAGS.mp3" id="miAudio"/>
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Caliente Reggaeton Feid Type beat</h3>
+                <p>
+                  Tempo : 85 Bpm <br />
+                  Tono: D#m
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img class="img-prod" src="./img/Descarada Redes.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/Descarada RouteNote.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Descarada Reggaeton Type beat</h3>
+                <p>
+                  Tempo : 94 Bpm <br />
+                  Tono: C#m
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img class="img-prod" src="./img/El patron redes.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/El patron Routenote.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">El Patrón Trap beat</h3>
+                <p>
+                  Tempo : 131 Bpm <br />
+                  Tono: Fm
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/kinky REDES.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/Kinky con tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">kinky Reggaeton Ferxxo Type beat</h3>
+                <p>
+                  Tempo : 93 Bpm <br />
+                  Tono: Em
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/PHILLIE REDES.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/PHILLIE CON TAGAS.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Phillie Reggaeton Feid Type beat</h3>
+                <p>
+                  Tempo : 90 Bpm <br />
+                  Tono: Bm
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/AGUSTO BS.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/Agusto con tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Agusto Afrobeat Type beat</h3>
+                <p>
+                  Tempo : 90 Bpm <br />
+                  Tono: Dm
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/morena redes.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/Morena con tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Morena Afrobeat Type beat</h3>
+                <p>
+                  Tempo : 92 Bpm <br />
+                  Tono: Eb M
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img
+                class="img-prod"
+                src="./img/relajao portada rezci.jpg"
+                alt=""
+              />
+              <audio controls>
+                <source src="./audio/Relajao con tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Relajao R&b Type beat</h3>
+                <p>
+                  Tempo : 98 Bpm <br />
+                  Tono: F#M
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/tu piel feed insta.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/tu piel with tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Tu piel Feid Type beat</h3>
+                <p>
+                  Tempo : 85 Bpm <br />
+                  Tono: EbM
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/traviesa redes.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/Traviesa con tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Traviesa Reggaeton Type beat</h3>
+                <p>
+                  Tempo : 104 Bpm <br />
+                  Tono: C#m
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+            <div class="producto">
+              <img class="img-prod" src="./img/Deseo redes.jpg" alt="" />
+              <audio controls>
+                <source src="./audio/Deseo con tags.mp3" />
+              </audio>
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Deseo Afrobeat Type beat</h3>
+                <p>
+                  Tempo : 93 Bpm <br />
+                  Tono: Em
+                </p>
+                <p class="producto-precio">30$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div> -->
+          </div>
+        </section>
+        <!-- seccion de soundkits -->
+        <section id="secSoundKits">
+          <h2 class="titulo-principal" id="titulo-principal"></h2>
+          <div id="contenedor-productos2" class="cont-productos">
+            <!-- <div class="producto">
+              <img
+                class="img-prod"
+                src="https://th.bing.com/th/id/OIP.nOITsDoObZCzKA0SJD9zKQHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3"
+                alt=""
+              />
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Reggaeton Vol 1.</h3>
+                <p>
+                  Contiene:<br />
+                  Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx,
+                  Percusiones y melodias en formato Wav y Midi.
+                </p>
+                <p class="producto-precio">10$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img
+                class="img-prod"
+                src="https://th.bing.com/th/id/OIP.Fyo8xQDLNGii2zUur-60HQHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3"
+                alt=""
+              />
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Reggaeton Vol 2.</h3>
+                <p>
+                  Contiene:<br />
+                  Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx,
+                  Percusiones y melodias en formato Wav y Midi.
+                </p>
+                <p class="producto-precio">10$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img
+                class="img-prod"
+                src="https://th.bing.com/th/id/OIP.hUy-yx4cNYyjzkPk8njE1AHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3"
+                alt=""
+              />
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Trap Pack Starter Vol 1.</h3>
+                <p>
+                  Contiene:<br />
+                  Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx,
+                  Percusiones y melodias en formato Wav y Midi.
+                </p>
+                <p class="producto-precio">10$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img
+                class="img-prod"
+                src="https://th.bing.com/th/id/OIP.gh5hl2adLMdPh0jKPiCncAHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3"
+                alt=""
+              />
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">NLMM Reggaeton Vol 1.</h3>
+                <p>
+                  Contiene:<br />
+                  Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx,
+                  Percusiones y melodias en formato Wav y Midi.
+                </p>
+                <p class="producto-precio">10$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img
+                class="img-prod"
+                src="https://th.bing.com/th/id/OIP.lNFZEoeo5Y7dq8gwhR9A9QAAAA?pid=ImgDet&w=182&h=182&c=7&dpr=1,3"
+                alt=""
+              />
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Allubari Pack Vol 1.</h3>
+                <p>
+                  Contiene:<br />
+                  Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx,
+                  Percusiones y melodias en formato Wav y Midi.
+                </p>
+                <p class="producto-precio">10$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div>
+
+            <div class="producto">
+              <img
+                class="img-prod"
+                src="https://th.bing.com/th/id/OIP.FgbDM09P1SIqyaF4RqIv6QHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3"
+                alt=""
+              />
+              <div class="detalle-prod">
+                <h3 class="titulo-prod">Splash Bros Pack Vol 1.</h3>
+                <p>
+                  Contiene:<br />
+                  Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx,
+                  Percusiones y melodias en formato Wav y Midi.
+                </p>
+                <p class="producto-precio">10$</p>
+                <button class="producto-agregar">Agregar</button>
+              </div>
+            </div> -->
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="index.js"></script>
+    
+
+  </body>
+  
+</html>

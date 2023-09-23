@@ -1,0 +1,223 @@
+
+
+[
+    
+  
+    {
+      "id": "beat-01",
+      "titulo": "Caliente Reggaeton Feid Type beat",
+      "imagen": "./img/caliente redes.jpg",
+      "detalle": "Tempo : 85 Bpm<br>Tono: D#m",
+      "audio": "./audio/CALIENTE CON TAGS.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-02",
+      "titulo": "Descarada Reggaeton Type beat",
+      "imagen": "./img/Descarada Redes.jpg",
+      "detalle": "Tempo : 94 Bpm<br>Tono: C#m",
+      "audio": "./audio/Descarada RouteNote.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-03",
+      "titulo" : "El Patrón Trap beat",
+      "imagen": "./img/El patron redes.jpg",
+      "detalle": "Tempo : 131 Bpm<br>Tono: Fm",
+      "audio": "./audio/El patron Routenote.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-04",
+      "titulo": "kinky Reggaeton Ferxxo Type beat",
+      "imagen": "./img/kinky REDES.jpg",
+      "detalle": "Tempo : 93 Bpm<br>Tono: Em",
+      "audio": "./audio/Kinky con tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-05",
+      "titulo": "Phillie Reggaeton Feid Type beat",
+      "imagen": "./img/PHILLIE REDES.jpg",
+      "detalle": "Tempo : 90 Bpm<br>Tono: Bm",
+      "audio": "./audio/PHILLIE CON TAGAS.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-06",
+      "titulo": "Agusto Afrobeat Type beat",
+      "imagen": "./img/AGUSTO BS.jpg",
+      "detalle": "Tempo : 90 Bpm<br>Tono: Dm",
+      "audio": "./audio/Agusto con tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-07",
+      "titulo": "Morena Afrobeat Type beat",
+      "imagen": "./img/morena redes.jpg",
+      "detalle": "Tempo : 92 Bpm<br>Tono: EbM",
+      "audio": "./audio/Morena con tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-08",
+      "titulo": "Relajao R&b Type beat",
+      "imagen": "./img/relajao portada rezci.jpg",
+      "detalle": "Tempo : 98 Bpm<br>Tono: F#M",
+      "audio": "./audio/Relajao con tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-09",
+      "titulo": "Tu piel Feid Type beat",
+      "imagen": "./img/tu piel feed insta.jpg",
+      "detalle": "Tempo : 85 Bpm<br>Tono: EbM",
+      "audio": "./audio/tu piel with tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-10",
+      "titulo": "Traviesa Reggaeton Type beat",
+      "imagen": "./img/traviesa redes.jpg",
+      "detalle": "Tempo : 104 Bpm<br>Tono: C#m",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    {
+      "id": "beat-11",
+      "titulo": "Deseo Afrobeat Type beat",
+      "imagen": "./img/Deseo redes.jpg",
+      "detalle": "Tempo : 93 Bpm<br>Tono: Em",
+      "audio": "./audio/Deseo con tags.mp3",
+      "categoria": {
+        "nombre": "BEATS",
+        "id": "beats"
+      },
+      "precio": "30"
+    },
+    
+    {
+      "id": "soundkit-01",
+      "titulo": "Reggaeton Vol 1.",
+      "imagen":
+        "https://th.bing.com/th/id/OIP.nOITsDoObZCzKA0SJD9zKQHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3",
+      "detalle":
+        "Contiene:<br/>Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx, Percusiones y melodias en formato Wav y Midi.",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "SOUNDKITS",
+        "id": "soundkits"
+      },
+      "precio": "10"
+    },
+    {
+      "id": "soundkit-02",
+      "titulo": "Reggaeton Vol 2.",
+      "imagen":
+        "https://th.bing.com/th/id/OIP.Fyo8xQDLNGii2zUur-60HQHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3",
+      "detalle":
+        "Contiene:<br/>Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx, Percusiones y melodias en formato Wav y Midi.",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "SOUNDKITS",
+        "id": "soundkits"
+      },
+      "precio": "10"
+    },
+    {
+      "id": "soundkit-03",
+      "titulo": "Trap Pack Starter Vol 1.",
+      "imagen":
+        "https://th.bing.com/th/id/OIP.hUy-yx4cNYyjzkPk8njE1AHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3",
+      "detalle":
+        "Contiene:<br/>Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx, Percusiones y melodias en formato Wav y Midi.",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "SOUNDKITS",
+        "id": "soundkits"
+      },
+      "precio": "10"
+    },
+    {
+      "id": "soundkit-04",
+      "titulo": "NLMM Reggaeton Vol 1.",
+      "imagen":
+        "https://th.bing.com/th/id/OIP.gh5hl2adLMdPh0jKPiCncAHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3",
+      "detalle":
+        "Contiene:<br/>Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx, Percusiones y melodias en formato Wav y Midi.",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "SOUNDKITS",
+        "id": "soundkits"
+      },
+      "precio": "10"
+    },
+    {
+      "id": "soundkit-05",
+      "titulo": "Allubari Pack Vol 1.",
+      "imagen":
+        "https://th.bing.com/th/id/OIP.lNFZEoeo5Y7dq8gwhR9A9QAAAA?pid=ImgDet&w=182&h=182&c=7&dpr=1,3",
+      "detalle":
+        "Contiene:<br/>Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx, Percusiones y melodias en formato Wav y Midi.",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "SOUNDKITS",
+        "id": "soundkits"
+      },
+      "precio": "10"
+    },
+    {
+      "id": "soundkit-06",
+      "titulo": "Splash Bros Pack Vol 1.",
+      "imagen":
+        "https://th.bing.com/th/id/OIP.FgbDM09P1SIqyaF4RqIv6QHaHa?pid=ImgDet&w=182&h=182&c=7&dpr=1,3",
+      "detalle":
+        "Contiene:<br/>Samples de Kicks, Snares, Hi hat, Cymbals, Crash, Fx, Percusiones y melodias en formato Wav y Midi.",
+      "audio": "./audio/Traviesa con tags.mp3",
+      "categoria": {
+        "nombre": "SOUNDKITS",
+        "id": "soundkits"
+      },
+      "precio": "10"
+    }
+  ]
